@@ -1,0 +1,103 @@
+# -------------------------------
+# Python / ML Project .gitignore
+# -------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.venv
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch / TensorFlow model artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+lightning_logs/
+wandb/
+
+# Model directory (keep structure with a .gitkeep file if needed)
+models/*
+!models/.gitkeep
+
+# Data (raw / processed) - ignore large datasets but allow placeholder trackers
+data/raw/*
+data/processed/*
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Logs & outputs
+logs/
+*.log
+*.out
+*.err
+
+# Coverage / test artifacts
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Type checker / tooling caches
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
+.env
+.env.*
+*.secrets
+
+# Node (if accidentally added for UI bits)
+node_modules/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Images: keep by default (comment out if you want to ignore generated plots)
+# images/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Profiling
+.prof
+
+# Optional: Uncomment if you create experiment tracking DBs
+# mlruns/
+# comet-ml-*
+
+# End of file
