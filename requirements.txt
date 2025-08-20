@@ -1,0 +1,29 @@
+# Core ML / Deep Learning
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Numerics / Data
+numpy>=1.26.0
+scikit-learn>=1.4.0
+Pillow>=10.0.0
+
+# Visualization
+matplotlib>=3.8.0
+
+# Progress / Pretty logs (optional but handy)
+tqdm>=4.66.0
+rich>=13.7.0
+
+# Experiment tracking (optional; comment out if unused)
+# tensorboard>=2.16.0
+# wandb>=0.16.0
+
+# Reproducibility / Utilities (optional)
+# python-dotenv>=1.0.0
+
+# Testing (optional)
+# pytest>=8.0.0
+
+# NOTE:
+# - If using CUDA, install the matching torch/torchvision wheels from https://pytorch.org/get-started/locally/
+# - You can pin exact versions later for full reproducibility (e.g., torch==2.2.0).
