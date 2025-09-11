@@ -145,9 +145,6 @@ Notes: Overfitting minimal, might add dropout 0.2.
 - [ ] Add confusion matrix & sample predictions to `images/`
 - [ ] Integrate experiment tracking (TensorBoard / Weights & Biases)
 
-## 14. Contributing
-Pull requests are welcome. For major changes, open an issue first to discuss what you’d like to change.
----
-Happy experimenting! Feel free to open issues for questions or feature suggestions.
+
 
 
