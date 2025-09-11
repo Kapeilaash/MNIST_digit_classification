@@ -147,10 +147,7 @@ Notes: Overfitting minimal, might add dropout 0.2.
 
 ## 14. Contributing
 Pull requests are welcome. For major changes, open an issue first to discuss what you’d like to change.
-
-## 16. Citation
-If you use this repository in academic work, cite the official MNIST paper: *LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based learning applied to document recognition.*
-
 ---
 Happy experimenting! Feel free to open issues for questions or feature suggestions.
+
 
